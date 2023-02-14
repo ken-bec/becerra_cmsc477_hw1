@@ -1,0 +1,66 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar
+{
+    background-image: linear-gradient(to right, #00d0ff, #002c69);
+    padding: 0 !important;
+}
+
+.navbar-nav li
+{
+    padding: 0  10px;
+}
+
+.navbar-nav a
+{
+    color: #000 !important;
+    font-weight: 600;
+}
+
+/* beginning */
+
+#banner
+{
+    background-image: linear-gradient(to right, #00d0ff, #002c69);
+    color: #000;
+    padding-top: 5%;
+}
+
+.bottom-img
+{
+    width: 100%;
+    transform: rotate(180deg)
+}
+
+.wrapper
+{
+    margin: 50px auto;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0 0 40 2px rgba(0, 208, 255, 0.18);
+}
+
+#about-me
+{
+    background-image: linear-gradient(to right, #00d0ff, #002c69);
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
